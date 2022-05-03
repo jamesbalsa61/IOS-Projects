@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swift_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tug-Hn-Zrf">
+                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="rewind" id="efE-ed-95m">
+                                        <connections>
+                                            <action selector="decrease:" destination="BYZ-38-t0r" id="Uwu-Kx-N6R"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="TxV-9D-KZ4"/>
+                                    <barButtonItem title="Reset" id="F4o-cn-i5y"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="HeT-dw-iCC"/>
+                                    <barButtonItem systemItem="fastForward" id="qO4-pu-JX0">
+                                        <connections>
+                                            <action selector="Increase:" destination="BYZ-38-t0r" id="oYg-N2-aqB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tuq-rr-hZG">
+                                <rect key="frame" x="0.0" y="31" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Swift Timer " id="rax-xO-28H">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="play" id="azI-oP-M5O">
+                                            <color key="tintColor" red="0.53036993741989136" green="0.074596919119358063" blue="0.82141584157943726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="play:" destination="BYZ-38-t0r" id="bRK-El-ozF"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="pause" id="rBr-D8-uJz">
+                                            <connections>
+                                                <action selector="pause:" destination="BYZ-38-t0r" id="aNN-bP-4h3"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="240" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="deG-Jy-Kue">
+                                <rect key="frame" x="174.5" y="426.5" width="65" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="deG-Jy-Kue" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="077-TE-vMY"/>
+                            <constraint firstItem="deG-Jy-Kue" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XCR-KP-fP2"/>
+                            <constraint firstItem="deG-Jy-Kue" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uUC-nq-M9k"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label_Timer" destination="deG-Jy-Kue" id="kD7-O2-6GX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="186.95652173913044" y="-72.321428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
