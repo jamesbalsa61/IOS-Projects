@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Egg_Timer
+//  Swift_Timer
 //
 //  Created by Michael Balsa on 5/2/22.
 //
