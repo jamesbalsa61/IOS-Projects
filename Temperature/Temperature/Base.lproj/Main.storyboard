@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperature Calculator" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9a-nw-1pB">
+                                <rect key="frame" x="13" y="0.0" width="287" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="S9a-nw-1pB" secondAttribute="height" multiplier="127:43" id="Dct-2U-BEW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Fahrenheit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yeY-t7-6Np">
+                                <rect key="frame" x="13" y="105" width="287" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="4j5-bW-Zfs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rYr-XQ-7hM">
+                                <rect key="frame" x="13" y="155" width="287" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="Lyr-V2-gPe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="convert:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="S0S-rK-9U1"/>
+                                </connections>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Temp1" translatesAutoresizingMaskIntoConstraints="NO" id="rrD-Rk-bsZ">
+                                <rect key="frame" x="13" y="197" width="287" height="266"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 Celsius" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVv-cZ-2fP">
+                                <rect key="frame" x="13" y="471" width="287" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="dEO-4F-HAw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="CVU-GL-wRW">
+                                <rect key="frame" x="13" y="526" width="287" height="32"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="SRE-mT-gqP"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Calculate to Celsius"/>
+                                    <segment title="Calculate to Fahrenheit"/>
+                                </segments>
+                                <connections>
+                                    <action selector="switchConversion:" destination="BYZ-38-t0r" eventType="valueChanged" id="ysd-dU-9TP"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CVU-GL-wRW" secondAttribute="trailing" constant="20" id="63R-tk-jZb"/>
+                            <constraint firstItem="S9a-nw-1pB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="13" id="Cw3-nI-hLE"/>
+                            <constraint firstItem="nVv-cZ-2fP" firstAttribute="top" secondItem="rrD-Rk-bsZ" secondAttribute="bottom" constant="8" symbolic="YES" id="EvY-zY-PTq"/>
+                            <constraint firstItem="rYr-XQ-7hM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="13" id="H4v-OO-2N7"/>
+                            <constraint firstItem="CVU-GL-wRW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="13" id="HVR-JF-2eM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yeY-t7-6Np" secondAttribute="trailing" constant="20" id="J4B-N2-L1B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rrD-Rk-bsZ" secondAttribute="trailing" constant="20" id="L7V-vE-ONm"/>
+                            <constraint firstItem="rYr-XQ-7hM" firstAttribute="top" secondItem="yeY-t7-6Np" secondAttribute="bottom" constant="8" symbolic="YES" id="OQS-4W-r8Q"/>
+                            <constraint firstItem="CVU-GL-wRW" firstAttribute="top" secondItem="nVv-cZ-2fP" secondAttribute="bottom" constant="8" symbolic="YES" id="QX6-cy-av1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rYr-XQ-7hM" secondAttribute="trailing" constant="20" id="Rcx-VZ-dMA"/>
+                            <constraint firstItem="rrD-Rk-bsZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="13" id="VOr-sw-Xr8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="S9a-nw-1pB" secondAttribute="trailing" constant="20" id="XrY-2F-xYT"/>
+                            <constraint firstItem="yeY-t7-6Np" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="13" id="aOP-x5-xsZ"/>
+                            <constraint firstItem="S9a-nw-1pB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ajz-E1-cAI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nVv-cZ-2fP" secondAttribute="trailing" constant="20" id="d6f-fD-hHK"/>
+                            <constraint firstItem="yeY-t7-6Np" firstAttribute="top" secondItem="S9a-nw-1pB" secondAttribute="bottom" constant="8" symbolic="YES" id="hPw-8e-GIS"/>
+                            <constraint firstItem="nVv-cZ-2fP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="13" id="kGo-SH-gFr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CVU-GL-wRW" secondAttribute="bottom" constant="11" id="uhw-R6-7YT"/>
+                            <constraint firstItem="rrD-Rk-bsZ" firstAttribute="top" secondItem="rYr-XQ-7hM" secondAttribute="bottom" constant="8" symbolic="YES" id="zDV-nv-tKw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="rrD-Rk-bsZ" id="qfI-ma-FTc"/>
+                        <outlet property="label" destination="yeY-t7-6Np" id="qqV-AP-0vc"/>
+                        <outlet property="outputLabel" destination="nVv-cZ-2fP" id="347-oq-Rfh"/>
+                        <outlet property="segControl" destination="CVU-GL-wRW" id="Qxh-uw-Afj"/>
+                        <outlet property="textField" destination="rYr-XQ-7hM" id="X4I-AV-LLs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Temp1" width="263" height="943"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
