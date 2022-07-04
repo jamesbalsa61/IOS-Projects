@@ -1,3 +1,4 @@
+ 
 ### Hi there 👋, Michael Balsa
 #### IOS Development
 ![IOS Development](https://www.linkedin.com/in/michael-balsa-9474431b0/)
@@ -13,7 +14,7 @@ Skills: Objective C / Swift / SQL /
 - ⚡ Fun fact: Im System Administrator, Database administrator & Data Analyst for USMC. 
 
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/jamesbalsa61)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/Michael Balsa/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/james_kali_2023/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg' alt='stackoverflow' height='40'>](https://stackoverflow.com/users/Michael)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://medium.com/@jamesbalsa)  
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/jamesbalsa61)  
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jamesbalsa61)](https://github.com/anuraghazra/github-readme-stats)
 
@@ -21,8 +22,6 @@ Skills: Objective C / Swift / SQL /
 
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=jamesbalsa61)  
 
-![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=jamesbalsa61)  
 
-![Profile views](https://gpvc.arturio.dev/jamesbalsa61)  
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jamesbalsa61)](https://github.com/anuraghazra/github-readme-stats)
