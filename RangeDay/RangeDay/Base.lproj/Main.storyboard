@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Day" translatesAutoresizingMaskIntoConstraints="NO" id="act-Rj-Ccr">
+                                <rect key="frame" x="10" y="9.9999999999999858" width="384" height="237.66666666666663"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time:30" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRh-n1-RDw">
+                                <rect key="frame" x="10" y="269.66666666666669" width="192" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="YaU-3Y-Q4j"/>
+                                    <constraint firstAttribute="width" constant="192" id="sAB-Hf-A9D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:0" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxT-Cb-VWi">
+                                <rect key="frame" x="222" y="269.66666666666669" width="182" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="S5f-Zs-HDi"/>
+                                    <constraint firstAttribute="width" constant="182" id="UVA-Ye-zWW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aim" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ypV-eB-Ods">
+                                <rect key="frame" x="20" y="369.66666666666669" width="384" height="237.33333333333331"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="64"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2K-Wd-ylO">
+                                <rect key="frame" x="20" y="646" width="384" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="d8v-w3-KXd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="37"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Start Game">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="startGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X0B-Rk-yfc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B2K-Wd-ylO" secondAttribute="trailing" constant="10" id="9Pj-lk-eXH"/>
+                            <constraint firstItem="ypV-eB-Ods" firstAttribute="width" secondItem="act-Rj-Ccr" secondAttribute="width" id="KCP-P7-WIo"/>
+                            <constraint firstItem="B2K-Wd-ylO" firstAttribute="top" secondItem="ypV-eB-Ods" secondAttribute="bottom" constant="39" id="Me0-qN-u5P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="B2K-Wd-ylO" secondAttribute="bottom" constant="35" id="Mrg-Eu-czI"/>
+                            <constraint firstItem="act-Rj-Ccr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="PgM-zf-Bhc"/>
+                            <constraint firstItem="B2K-Wd-ylO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Qzl-cO-LFH"/>
+                            <constraint firstItem="ypV-eB-Ods" firstAttribute="top" secondItem="gxT-Cb-VWi" secondAttribute="bottom" constant="32" id="U93-0r-oKK"/>
+                            <constraint firstItem="bRh-n1-RDw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Wxe-5Q-ihH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gxT-Cb-VWi" secondAttribute="trailing" constant="10" id="Wyr-54-Xl3"/>
+                            <constraint firstItem="bRh-n1-RDw" firstAttribute="top" secondItem="act-Rj-Ccr" secondAttribute="bottom" constant="22" id="YBr-YT-qum"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ypV-eB-Ods" secondAttribute="trailing" constant="10" id="cj5-mn-nO9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="act-Rj-Ccr" secondAttribute="trailing" constant="10" id="j1v-0S-ouF"/>
+                            <constraint firstItem="gxT-Cb-VWi" firstAttribute="leading" secondItem="bRh-n1-RDw" secondAttribute="trailing" constant="20" id="l5b-SA-VCg"/>
+                            <constraint firstItem="act-Rj-Ccr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="nrz-o6-EQT"/>
+                            <constraint firstItem="ypV-eB-Ods" firstAttribute="height" secondItem="act-Rj-Ccr" secondAttribute="height" id="pNS-OY-Sqg"/>
+                            <constraint firstItem="ypV-eB-Ods" firstAttribute="top" secondItem="bRh-n1-RDw" secondAttribute="bottom" constant="32" id="qj5-Xb-EVs"/>
+                            <constraint firstItem="gxT-Cb-VWi" firstAttribute="top" secondItem="act-Rj-Ccr" secondAttribute="bottom" constant="22" id="vUA-9D-khq"/>
+                            <constraint firstItem="ypV-eB-Ods" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="wIT-Te-eS0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="aimLabel" destination="ypV-eB-Ods" id="DED-d8-P02"/>
+                        <outlet property="scoreLabel" destination="gxT-Cb-VWi" id="cbW-br-bLp"/>
+                        <outlet property="startButton" destination="B2K-Wd-ylO" id="S6a-eG-fNw"/>
+                        <outlet property="timeLabel" destination="bRh-n1-RDw" id="dKZ-eR-jR4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Day" width="500" height="500"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
