@@ -60,7 +60,7 @@ I'm an IOS developer who is self-taught in an overview of different languages an
 <img src="https://github.com/jamesbalsa61/Portfolio/blob/main/firearmStatistics.gif" width="256"/>
 
 ### CCW App
--
+- Objective C 
 -
 -
 -
