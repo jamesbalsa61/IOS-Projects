@@ -22,6 +22,9 @@ I'm an IOS developer who is self-taught in an overview of different languages an
 ### Dice Application
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Dice_application.gif" width="256"/>
 
+### ToDoList
+<img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/toDoList.gif" width="256"/>
+
 
 - 🔭 I’m currently working on this page. 
 - 🌱 I’m currently learning Objective C 
