@@ -18,15 +18,31 @@ I'm an IOS developer who is self-taught in an overview of different languages an
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/RangeDay.gif" width="256"/>
 
 ### Digitnal Clock
+- Objective C 
+-
+-
+-
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Digitnal%20Clock.gif" width="256"/>
 
 ### Calculator
+- Objective C
+-
+-
+-
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Calculator.gif" width="256"/>
 
 ### Dice Application
+- Objective C 
+-
+-
+-
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Dice_application.gif" width="256"/>
 
 ### ToDoList
+- Objective C
+-
+-
+-
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/toDoList.gif" width="256"/>
 
 
