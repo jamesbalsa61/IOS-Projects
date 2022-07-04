@@ -11,7 +11,7 @@ I'm an IOS developer who is self-taught in an overview of different languages an
 
 ## Examples of Work
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/RangeDay.gif" width="256"/>
-<img src="https:https://github.com/jamesbalsa61/IOS-Projects/blob/main/Digitnal%20Clock.gif" width="256"/>
+<img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Digitnal%20Clock.gif" width="256"/>
 
 
 - 🔭 I’m currently working on this page. 
