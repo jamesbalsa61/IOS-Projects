@@ -51,6 +51,14 @@ I'm an IOS developer who is self-taught in an overview of different languages an
 -
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/toDoList.gif" width="256"/>
 
+### Firearm Statistics
+- Objective C
+-
+-
+-
+
+<img src="https://github.com/jamesbalsa61/Portfolio/blob/main/firearmStatistics.gif" width="256"/>
+
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/jamesbalsa61)  
 
