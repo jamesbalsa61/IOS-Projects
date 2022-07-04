@@ -12,6 +12,7 @@ I'm an IOS developer who is self-taught in an overview of different languages an
 ## Examples of Work
 ### Range Day
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/RangeDay.gif" width="256"/>
+
 ### Digitnal Clock
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Digitnal%20Clock.gif" width="256"/>
 
