@@ -31,15 +31,14 @@ I'm an IOS developer who is self-taught in an overview of different languages an
 
 ### Calculator
 - Language: Objective C
-- Description: 
+- Description: The app performs basic logical operations such as addition, subtraction, division, and multiplication. In addition, the application works in relation to a regular calculator. 
 
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Calculator.gif" width="256"/>
 
 ### Dice Application
 - Language: Objective C 
--
--
--
+- Description : The player presses the "Roll" button, and the dice display is randomized into different image displays. 
+
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Dice_application.gif" width="256"/>
 
 ### ToDoList
