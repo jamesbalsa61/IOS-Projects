@@ -17,10 +17,10 @@ I'm an IOS developer who is self-taught in an overview of different languages an
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Digitnal%20Clock.gif" width="256"/>
 
 ### Calculator
-<img src="<img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Digitnal%20Clock.gif" width="256"/>" width="256"/>
+<img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Calculator.gif" width="256"/>
 
 ### Dice Application
-<img src="<img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Dice_application.gif" width="256"/>" width="256"/>
+<img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Dice_application.gif" width="256"/>
 
 
 - 🔭 I’m currently working on this page. 
