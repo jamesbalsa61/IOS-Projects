@@ -18,41 +18,39 @@ I'm an IOS developer who is self-taught in an overview of different languages an
 ## Examples of Work
 ### Range Day
 - Language: Objective C
--
--
--
+- Description: The player can swipe move up, down, left, or right on the screen. If the player swipes the screen in the correct direction, the display shows they receive a point. If the player swipes in the wrong direction, they are deducted one point. When the game is over, the player is given the option to restart the game. 
+
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/RangeDay.gif" width="256"/>
 
 ### Digitnal Clock
-- Objective C 
--
--
--
+- Language: Objective C 
+- Description: The application is based on digital clock time displayed on the screen to the user. The lower button on the screen, once pressed, allows the user to change the display to fix color that, includes the image background, font, and color display.
+
+
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Digitnal%20Clock.gif" width="256"/>
 
 ### Calculator
-- Objective C
--
--
--
+- Language: Objective C
+- Description: 
+
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Calculator.gif" width="256"/>
 
 ### Dice Application
-- Objective C 
+- Language: Objective C 
 -
 -
 -
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/Dice_application.gif" width="256"/>
 
 ### ToDoList
-- Objective C
+- Language: Objective C
 -
 -
 -
 <img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/toDoList.gif" width="256"/>
 
 ### Firearm Statistics
-- Objective C
+- Language: Objective C
 -
 -
 -
@@ -60,7 +58,7 @@ I'm an IOS developer who is self-taught in an overview of different languages an
 <img src="https://github.com/jamesbalsa61/Portfolio/blob/main/firearmStatistics.gif" width="256"/>
 
 ### CCW App
-- Objective C 
+- Language: Objective C 
 -
 -
 -
