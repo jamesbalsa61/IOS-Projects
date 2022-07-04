@@ -49,12 +49,12 @@ I'm an IOS developer who is self-taught in an overview of different languages an
 
 ### Firearm Statistics
 - Language: Objective C
--
+- Description: The application randomizes image view, and five facts about specific firearm brands for each concealed carry firearm. 
 <img src="https://github.com/jamesbalsa61/Portfolio/blob/main/firearmStatistics.gif" width="256"/>
 
 ### CCW App
 - Language: Objective C 
--
+- Descrription: 
 <img src="https://github.com/jamesbalsa61/Portfolio/blob/main/CCW%20app.gif" width="256"/>
 
 
