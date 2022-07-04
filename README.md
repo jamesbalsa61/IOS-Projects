@@ -9,6 +9,9 @@ I'm an IOS developer who is self-taught in an overview of different languages an
 * Swift
 * SQL
 
+## Examples of Work
+<img src="https://github.com/jamesbalsa61/IOS-Projects/blob/main/RangeDay.gif" width="256"/>
+
 
 - 🔭 I’m currently working on this page. 
 - 🌱 I’m currently learning Objective C 
