@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VFU-Fv-XPD">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KxV-NR-lFV">
+                                <rect key="frame" x="0.0" y="773" width="390" height="44"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="i9P-tZ-17U"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Standard" id="QHk-Ci-LGi">
+                                        <connections>
+                                            <action selector="standard:" destination="BYZ-38-t0r" id="9JG-mR-HHN"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Sattelite" id="O3o-3F-ppn">
+                                        <connections>
+                                            <action selector="satelite:" destination="BYZ-38-t0r" id="lf0-Sj-5Sj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Hybrid" id="qAd-LO-vA6">
+                                        <connections>
+                                            <action selector="hybrid:" destination="BYZ-38-t0r" id="Plx-Hc-8Xy"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="t57-8G-jKQ"/>
+                                    <barButtonItem title="Locate" id="wdz-BU-cmh">
+                                        <connections>
+                                            <action selector="locate:" destination="BYZ-38-t0r" id="98p-vR-5U4"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" systemColor="systemRedColor"/>
+                            </toolbar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="3Tj-Ql-llb">
+                                <rect key="frame" x="0.0" y="131" width="390" height="642"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3Tj-Ql-llb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="57u-qY-sYi"/>
+                            <constraint firstItem="KxV-NR-lFV" firstAttribute="trailing" secondItem="3Tj-Ql-llb" secondAttribute="trailing" id="7Yy-70-lPr"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="KxV-NR-lFV" secondAttribute="bottom" constant="-7" id="Tvf-qX-bLP"/>
+                            <constraint firstItem="KxV-NR-lFV" firstAttribute="top" secondItem="3Tj-Ql-llb" secondAttribute="bottom" id="bF7-Xx-2xW"/>
+                            <constraint firstItem="3Tj-Ql-llb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jD9-yM-qdy"/>
+                            <constraint firstItem="3Tj-Ql-llb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sUf-RR-7At"/>
+                            <constraint firstItem="KxV-NR-lFV" firstAttribute="leading" secondItem="3Tj-Ql-llb" secondAttribute="leading" id="xTN-Tk-m0d"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Map View" id="REx-WX-Ojh">
+                        <barButtonItem key="rightBarButtonItem" title="Directions" id="Vvd-eL-abe">
+                            <color key="tintColor" red="0.56578958034515381" green="0.077240489423274994" blue="0.79935199022293091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="directions:" destination="BYZ-38-t0r" id="dbz-LQ-3qZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="3Tj-Ql-llb" id="820-jv-J5i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="927.69230769230762" y="83.175355450236964"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="R0x-oG-fqo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VFU-Fv-XPD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GVi-G5-j4S">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" systemColor="systemIndigoColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="28"/>
+                            <color key="textColor" systemColor="systemIndigoColor"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ZJA-Sw-XW4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iIE-pq-Xb0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
