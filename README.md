@@ -57,7 +57,7 @@ I'm an IOS developer who is self-taught in an overview of different languages an
 - Descrription: 
 <img src="https://github.com/jamesbalsa61/Portfolio/blob/main/CCW%20app.gif" width="256"/>
 
-## Map Application
+### Map Application
 - Language: Objective C 
 - Description:
 <img src="https://github.com/jamesbalsa61/Portfolio/blob/main/mapView%20.gif" width="256"/>
