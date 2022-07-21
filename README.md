@@ -54,12 +54,12 @@ I'm an IOS developer who is self-taught in an overview of different languages an
 
 ### CCW App
 - Language: Objective C 
-- Descrription: 
+- Descrription: This app displays information & data concerning CCW firearms using stack views, Application Processing Interface search, and Auto Layout. In addition, this application contains three separate navigation controllers for Glock, Colt, and Beretta brands.
 <img src="https://github.com/jamesbalsa61/Portfolio/blob/main/CCW%20app.gif" width="256"/>
 
 ### Map Application
 - Language: Objective C 
-- Description:
+- Description:The Map Application displays real-time views of where someone is located on Google maps and directions toward the current location and final destination. 
 <img src="https://github.com/jamesbalsa61/Portfolio/blob/main/mapView%20.gif" width="256"/>
 
 
