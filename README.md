@@ -65,11 +65,11 @@ I'm an IOS developer who is self-taught in an overview of different languages an
 
 ###
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/jamesbalsa61)  
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/MichaelBalsa)  
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jamesbalsa61)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MichaelBalsa)](https://github.com/anuraghazra/github-readme-stats)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=jamesbalsa61&show_icons=true)  
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=MichaelBalsa&show_icons=true)  
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=jamesbalsa61)  
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=MichaelBalsa)  
 
