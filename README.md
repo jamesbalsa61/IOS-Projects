@@ -12,6 +12,7 @@ I'm an IOS developer who is learning in an overview of different languages and f
 
 ## Skills and Experience
 * Objective C
+* Python
 * Swift
 * SQL
 
