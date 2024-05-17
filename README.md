@@ -2,17 +2,18 @@
 ![IOS-Projects](https://github.com/jamesbalsa61/IOS-Projects/blob/main/wallpaper1.jpg)
 
 ### Michael Balsa
-I'm an IOS developer who is learning in an overview of different languages and frameworks such as Swift, SwiftUI, UIKit, and Objective C. I enjoy Objective C programming language and building applications in Objective C since it's such a robust, strong language. I also like the Swift programming language with its much faster compiling time and technological advances. I'm also developing my skills in understanding UX / UI design. You can check out my daily IOS development articles on my Linkedin https://www.linkedin.com/in/michael-balsa-9474431b0/ and medium account https://medium.com.
+I'm a Software developer who is learning an overview of different languages and frameworks in the software development field. I enjoy programming and building a multitude of different programs. I also like the Swift programming language and python programming. You can check out my daily activities on my LinkedIn page https://www.linkedin.com/in/michael-balsa-9474431b0/.
 
 - 🔭 I’m currently working on this page. 
-- 🌱 I’m currently learning Objective C 
+- 🌱 I’m currently learning Python programming
 - 🤔 I’m looking for help with Data Structures & Algorithms 
 - 📫 How to reach me: michael.balsa@yahoo.com 
-- ⚡ Fun fact: Im System Administrator, Database administrator & Data Analyst for USMC. 
+- ⚡ Fun fact: I served in the United States Marine Corps for 8 years
 
 ## Skills and Experience
-* Objective C
+* Objective C 
 * Swift
+* Python
 * SQL
 
 ## Examples of Work
